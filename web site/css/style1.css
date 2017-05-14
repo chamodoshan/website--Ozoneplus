@@ -2,25 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow-y: scroll;
-}
-
-body {
-  background: #c1bdba;
-  font-family: 'Titillium Web', sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: #1ab188;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-}
-a:hover {
-  color: #179b77;
-}
-
 .form {
   background: rgba(19, 35, 47, 0.9);
   padding: 40px;
@@ -63,15 +44,16 @@ a:hover {
   color: #ffffff;
 }
 
-.tab-content1 > div:last-child {
+.tab-content-form > div:last-child {
   display: none;
 }
 
-h4 {
+h5 {
+
   text-align: center;
   color: #ffffff;
-  font-weight: 300;
   margin: 0 0 40px;
+  font-size: 40px
 }
 
 label {
